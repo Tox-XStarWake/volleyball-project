@@ -1,7 +1,7 @@
 // server.js
 const express = require('express');
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3002;
 
 // Serve static files from the React app
 app.use(express.static('client/build'));
